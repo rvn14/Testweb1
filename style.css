@@ -103,6 +103,10 @@
     .nav-links ul li{
         display: block;
     }
+    .header{
+        overflow-x: hidden;
+        width: 100vw;
+    }
     .nav-links{
         position: absolute;
         background: #f44226;
@@ -114,6 +118,7 @@
         z-index: 2;
         transition: 0.3s;
     }
+    
     nav .fa{
         display: block;
         color: white;
